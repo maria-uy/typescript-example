@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio TypeScript</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <h1>Registro de gastos</h1>
+    <div class="d-flex">
+      <form class="new-item-form">
+        <div class="field">
+          <label>Categoría:</label>
+          <select id="category">
+            <option value="Alimentación">Alimentación</option>
+            <option value="Ocio">Ocio</option>
+            <option value="Transporte">Transporte</option>
+            <option value="Vestimenta">Vestimenta</option>
+            <option value="Varios">Varios</option>
+          </select>
+        </div>
+        <div class="field">
+          <label>Concepto:</label>
+          <input type="text" id="concept">
+        </div>   
+        <div class="field">
+          <label>Importe (€):</label>
+          <input type="number" id="amount">
+        </div>
+        <button>Agregar</button>
+      </form>
+
+          <!-- output list -->
+      <ul class="item-list">
+        
+      </ul>
+
+    </div>
+
+  </div>
+
+  <script type="module" src='app.js'></script>
+</body>
+</html>
