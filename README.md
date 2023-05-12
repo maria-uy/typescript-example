@@ -1,2 +1,2 @@
-# typescript-test
- Ejercicio de Typescript
+# typescript-example
+ Ejercicio básico de Typescript
